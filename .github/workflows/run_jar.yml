@@ -17,7 +17,7 @@ jobs:
       uses: actions/setup-java@v4
       with:
         distribution: 'temurin'
-        java-version: '17'  # or your required version
+        java-version: '22'  # or your required version
 
     - name: Run JAR file
       run: java -jar gh_actions_hello.jar
